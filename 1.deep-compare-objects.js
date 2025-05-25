@@ -1,8 +1,9 @@
 
 let deepCompareObjects = (obj1, obj2) => {
     // kya dono primitive hain like string, number, boolean
-    if (obj1 === obj2) return true;
     console.log(obj1,obj2)
+    if (obj1 === obj2) return true;
+    
     if( typeof obj1 !== 'object' || typeof obj2 !== 'object' || obj1 === null || obj2 === null) {
         return false;
     }
@@ -22,4 +23,4 @@ let deepCompareObjects = (obj1, obj2) => {
 
 }
 
-console.log(deepCompareObjects([1.21,1,2,1,12212,1,[1,12.23,1,2,3,3,21,,2]],[1.21,1,2,1,12212,1,[1,12.23,1,2,3,3,21,,2]]));
+console.log(deepCompareObjects([1,undefined,3],[1,undefined,3]));
