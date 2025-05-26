@@ -20,4 +20,5 @@ console.log('Polyfills for map, filter, reduce, slice, object.create, call, appl
 
 // console.log([2,1,2].myReduce((acc, val) => acc + val, 0)); // 5
 
+// 
 
