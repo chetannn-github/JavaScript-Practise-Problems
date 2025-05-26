@@ -19,7 +19,7 @@
 
 
 // C => infinte kisi me kitne bhii args 
-let sum = (...a) => {
+export let sum = (...a) => {
     return (...b) => {
         if(b.length == 0) {
             return a.reduce((acc, curr)=>(acc + curr), 0);
