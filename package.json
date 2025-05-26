@@ -1,5 +1,5 @@
 {
-  "name": "@chetannn-github/chetan-js-polyfill",
+  "name": "chetan-js-polyfill",
   "version": "1.0.11",
   "description": "Useful JS polyfills and utilities written from scratch",
   "main": "index.js",
@@ -22,8 +22,5 @@
   "bugs": {
     "url": "https://github.com/chetannn-github/JavaScript-Practise-Problems/issues"
   },
-  "homepage": "https://github.com/chetannn-github/JavaScript-Practise-Problems#readme",
-  "publishConfig": {
-    "access": "public"
-  }
+  "homepage": "https://github.com/chetannn-github/JavaScript-Practise-Problems#readme"
 }
