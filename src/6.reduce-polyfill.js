@@ -7,8 +7,8 @@ Array.prototype.myReduce = function (callBackFn, intial) {
         return new TypeError("reduce for empty array with no intial value");
     }
 
-    let acc = intial ? intial : this[0];
-    const startIdx = intial ? 0 : 1;
+    let acc = intial != undefined ? intial : this[0];
+    const startIdx = intial != undefined ? 0 : 1;
     
     for(let i = startIdx ; i< this.length; i++) {
         acc = callBackFn (acc, this[i], i, this);
