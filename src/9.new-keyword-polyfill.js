@@ -10,7 +10,7 @@
 
 
 
-export default function myNew (ConstructorFn,...args) {
+export let  myNew  = function (ConstructorFn,...args) {
     const obj = {};
 
     Object.setPrototypeOf(obj,ConstructorFn.prototype);
