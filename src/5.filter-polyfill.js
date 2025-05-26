@@ -21,9 +21,9 @@ Array.prototype.myFilter = function (callbackfn, thisArg) {
 }
 
 
-let callBackFn = (val, idx, arr) => val % 2 !== 0;
+// let callBackFn = (val, idx, arr) => val % 2 !== 0;
 
-console.log([1,2,4,2,4, undefined, ].myFilter(callBackFn,this));
+// console.log([1,2,4,2,4, undefined, ].myFilter(callBackFn,this));
 
-console.log(Array.prototype.myFilter.call({length : 13, 0: 12, 12: 11} , callBackFn));
-console.log(Array.prototype.filter.call({length : 13, 0: 12, 12: 11} , callBackFn));
+// console.log(Array.prototype.myFilter.call({length : 13, 0: 12, 12: 11} , callBackFn));
+// console.log(Array.prototype.filter.call({length : 13, 0: 12, 12: 11} , callBackFn));

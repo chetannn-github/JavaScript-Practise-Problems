@@ -42,13 +42,13 @@ export function deepClone(obj) {
     return cloned;
   }
   
-  const original = {
-    name: "Chetan",
-    scores: undefined,
+  // const original = {
+  //   name: "Chetan",
+  //   scores: undefined,
 
-  };
+  // };
   
-  const copy = deepClone(original);
+  // const copy = deepClone(original);
 
-  console.log(copy)
+  // console.log(copy)
   

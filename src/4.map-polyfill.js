@@ -20,13 +20,13 @@ Array.prototype.myMap = function (callBackFn, thisArg) {
 }
 
 
-let callBackFn = (val, idx, arr) => {
-    return val * val;
-}
+// let callBackFn = (val, idx, arr) => {
+//     return val * val;
+// }
 
 
 
-// console.log([1,2,4,2,4, undefined, ].myMap(callBackFn,this));
+// // console.log([1,2,4,2,4, undefined, ].myMap(callBackFn,this));
 
-console.log(Array.prototype.myMap.call({length : 13, 0: 12, 12: 11} , callBackFn));
-console.log(Array.prototype.map.call({length : 13, 0: 12, 12: 11} , callBackFn));
+// console.log(Array.prototype.myMap.call({length : 13, 0: 12, 12: 11} , callBackFn));
+// console.log(Array.prototype.map.call({length : 13, 0: 12, 12: 11} , callBackFn));

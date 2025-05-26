@@ -20,4 +20,4 @@ Array.prototype.myFlat = function (depth = 1) {
     return result;
 }
 
-console.log([1,3, [21, 12, [12,12,[1,[21]]]]].myFlat(4));
+// console.log([1,3, [21, 12, [12,12,[1,[21]]]]].myFlat(4));

@@ -30,7 +30,7 @@ export let sum = (...a) => {
     }
 }
 
-console.log(sum(1,10,2)());
+// console.log(sum(1,10,2)());
 
 
 
