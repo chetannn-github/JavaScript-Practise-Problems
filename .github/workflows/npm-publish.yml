@@ -13,7 +13,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0   # tags ke liye zaroori hai
+          fetch-depth: 0
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Use Node.js
         uses: actions/setup-node@v3
@@ -30,7 +31,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           npm version patch -m "chore: bump version to %s [skip ci]"
-          git push origin main --follow-tags
+          git push https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/chetannn-github/JavaScript-Practise-Problems.git main --follow-tags
 
       - name: Publish to NPM
         run: npm publish --access public
