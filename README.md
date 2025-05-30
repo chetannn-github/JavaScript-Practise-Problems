@@ -7,8 +7,7 @@ A lightweight JavaScript polyfill library to bring modern JS features to older e
 
 ---
 
-<img src="https://github.com/chetannn-github/JavaScript-Practise-Problems/blob/main/src/assets/preview/npm.png" width="100%" />
-
+<img src="https://github.com/chetannn-github/JavaScript-Practise-Problems/blob/main/src/assets/npm.png" width="100%" />
 
 ## 🚀 Features
 
