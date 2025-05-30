@@ -7,6 +7,9 @@ A lightweight JavaScript polyfill library to bring modern JS features to older e
 
 ---
 
+<img src="https://github.com/chetannn-github/JavaScript-Practise-Problems/blob/main/src/assets/preview/npm.png" width="100%" />
+
+
 ## 🚀 Features
 
 - ✅ Polyfills for modern JavaScript methods (ES6+)
