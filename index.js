@@ -1,18 +1,20 @@
-export { deepCompareObjects } from './src/1.deep-compare-objects.js';
-export { deepClone } from './src/2.deep-clone-objects.js';
-export { sum as currySum } from './src/3.currying-problems.js';
-export  {myNew} from './src/9.new-keyword-polyfill.js';
+export { deepCompareObjects } from './src/deep-compare-objects.js';
+export { deepClone } from './src/deep-clone-objects.js';
+export { sum as currySum } from './src/currying-problems.js';
+export  {myNew} from './src/new-keyword-polyfill.js';
+export {abstractEquality} from "./src/abstract-equality-polyfill.js"
 
 
-import './src/4.map-polyfill.js';
-import './src/5.filter-polyfill.js';
-import './src/6.reduce-polyfill.js';
-import './src/7.slice-polyfill.js';
-import './src/8.flat-polyfill.js';
-import './src/10.object.create-pollyfill.js';
-import './src/11.call-polyfill.js'
-import './src/12.apply-polyfill.js'
-import './src/13.bind-polyfill.js'
+
+import './src/map-polyfill.js';
+import './src/filter-polyfill.js';
+import './src/reduce-polyfill.js';
+import './src/slice-polyfill.js';
+import './src/flat-polyfill.js';
+import './src/object.create-pollyfill.js';
+import './src/call-polyfill.js'
+import './src/apply-polyfill.js'
+import './src/bind-polyfill.js'
 
 
 
