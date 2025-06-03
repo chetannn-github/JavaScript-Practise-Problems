@@ -3,7 +3,7 @@ export { deepClone } from './src/deep-clone-objects.js';
 export { sum as currySum } from './src/currying-problems.js';
 export  {myNew} from './src/new-keyword-polyfill.js';
 export {abstractEquality} from "./src/abstract-equality-polyfill.js"
-
+export {debounce} from "./src/debounce.js"
 
 
 import './src/map-polyfill.js';
@@ -18,7 +18,7 @@ import './src/bind-polyfill.js'
 
 
 
-console.log('Polyfills for map, filter, reduce, slice, object.create, call, apply ,bind and flat have been loaded.');
+console.log('Polyfills for map, filter, reduce, slice,flat object.create, call, apply ,bind, debounce  have been loaded.');
 
 
 // console.log([2,1,2].myReduce((acc, val) => acc + val, 0)); // 5
