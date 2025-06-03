@@ -5,6 +5,8 @@ export  {myNew} from './src/new-keyword-polyfill.js';
 export {abstractEquality} from "./src/abstract-equality-polyfill.js"
 export {debounce} from "./src/debounce.js"
 
+export {throttleBasicUsingDate, throttleBasicUsingTimer} from "./src/throttle-basic.js"
+
 
 import './src/map-polyfill.js';
 import './src/filter-polyfill.js';
