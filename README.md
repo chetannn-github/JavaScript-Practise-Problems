@@ -33,29 +33,59 @@ yarn add chetan-js-polyfills
 ```
 
 ---
-
 ## 🛠️ Usage
 
-Import everything (default, not recommended for production):
+### Automatic Polyfills (Prototype Methods)
+
+When you import the package, these polyfills are added to the respective prototypes:
+
+- **Function.prototype**:  
+  - `myCall`, `myBind`, `myApply`
+- **Array.prototype**:  
+  - `myMap`, `myFilter`, `myReduce`, `mySlice`, `myFlat`
+- **Object**:  
+  - `myCreate`
 
 ```js
 import 'chetan-js-polyfills';
+// Now you can use the polyfilled methods directly on Function, Array, and Object
 ```
 
-Recommended: Import only what you need:
+---
+
+### Named Utility Exports
+
+You can also import utility functions as named exports:
+
+- `myDeepCloneObject`
+- `myCurrySum`
+- `myDeepCompareObjects`
+- `myAbstractEquality`
+- `myDebounce`
+- `myThrottleBasicUsingDate`
+- `myThrottleBasicUsingTimer`
+- `myThrottleAdvance`
+- `myNew`
+- `mySetTimeout`
+- `myClearTimeout`
 
 ```js
-import 'chetan-js-polyfills/array-flat';
-
+import {
+  myDeepCloneObject,
+  myCurrySum,
+  myDeepCompareObjects,
+  myAbstractEquality,
+  myDebounce,
+  myThrottleBasicUsingDate,
+  myThrottleBasicUsingTimer,
+  myThrottleAdvance,
+  myNew,
+  mySetTimeout,
+  myClearTimeout
+} from 'chetan-js-polyfills';
 ```
 
-This keeps your bundle size small.
-
----
-
-
-
----
+This approach keeps your bundle size small and lets you use only what you need.
 
 ## 🌍 Browser Support
 
