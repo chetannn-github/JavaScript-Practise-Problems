@@ -1,6 +1,6 @@
 {
   "name": "chetan-js-polyfill",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "Useful JS polyfills and utilities written from scratch",
   "main": "index.js",
   "type": "module",
