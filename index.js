@@ -23,6 +23,7 @@ import './src/bind-polyfill.js'
 
 // object polyfills
 import './src/object.create-pollyfill.js';
+import { mySetTimeout } from './src/setTimeout-polyfill.js';
 
 console.log("Polyfills for myCall, myBind, myApply have been added to Function prototype");
 console.log("Polyfills for myMap, myFilter, myReduce, mySlice ,myFlat have been added to Array prototype");
@@ -30,7 +31,6 @@ console.log("Polyfills for myCreate has  been added to Object prototype");
 
 console.log("myDeepCloneObject,myCurrySum, myDeepCompareObjectsmyAbstractEquality, myDebounce, myThrottleBasicUsingDate, myThrottleBasicUsingTimer ,myThrottleAdvance, myNew, mySetTimeout myClearTimeout fns  have been named export.");
 
- 
 
 
 
