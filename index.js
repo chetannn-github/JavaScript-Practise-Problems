@@ -4,6 +4,7 @@ export { myCurrySum } from './src/currying-problems.js';
 export  {myNew} from './src/new-keyword-polyfill.js';
 export {myAbstractEquality} from "./src/abstract-equality-polyfill.js"
 export {myDebounce} from "./src/debounce.js"
+export {mySetTimeout,myClearTimeout} from "./src/setTimeout-polyfill.js"
 
 export {myThrottleBasicUsingDate, myThrottleBasicUsingTimer} from "./src/throttle-basic.js"
 export {myThrottleAdvance} from "./src/throttle-advance.js"
