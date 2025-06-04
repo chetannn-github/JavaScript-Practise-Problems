@@ -6,7 +6,7 @@ export {abstractEquality} from "./src/abstract-equality-polyfill.js"
 export {debounce} from "./src/debounce.js"
 
 export {throttleBasicUsingDate, throttleBasicUsingTimer} from "./src/throttle-basic.js"
-
+export {throttleAdvance} from "./src/throttle-advance.js"
 
 import './src/map-polyfill.js';
 import './src/filter-polyfill.js';
@@ -20,7 +20,7 @@ import './src/bind-polyfill.js'
 
 
 
-console.log('Polyfills for map, filter, reduce, slice,flat object.create, call, apply ,bind, debounce  have been loaded.');
+console.log('Polyfills for map, filter, reduce, slice,flat object.create, call, apply ,bind, debounce , throttle , advanced throttle fn  have been loaded.');
 
 
 // console.log([2,1,2].myReduce((acc, val) => acc + val, 0)); // 5
