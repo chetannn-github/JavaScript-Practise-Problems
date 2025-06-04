@@ -1,43 +1,35 @@
-export { deepCompareObjects } from './src/deep-compare-objects.js';
-export { deepClone } from './src/deep-clone-objects.js';
-export { sum as currySum } from './src/currying-problems.js';
+export { myDeepCompareObjects } from './src/deep-compare-objects.js';
+export { myDeepCloneObject } from './src/deep-clone-objects.js';
+export { myCurrySum } from './src/currying-problems.js';
 export  {myNew} from './src/new-keyword-polyfill.js';
-export {abstractEquality} from "./src/abstract-equality-polyfill.js"
-export {debounce} from "./src/debounce.js"
+export {myAbstractEquality} from "./src/abstract-equality-polyfill.js"
+export {myDebounce} from "./src/debounce.js"
 
-export {throttleBasicUsingDate, throttleBasicUsingTimer} from "./src/throttle-basic.js"
-export {throttleAdvance} from "./src/throttle-advance.js"
+export {myThrottleBasicUsingDate, myThrottleBasicUsingTimer} from "./src/throttle-basic.js"
+export {myThrottleAdvance} from "./src/throttle-advance.js"
 
+// array polyfills
 import './src/map-polyfill.js';
 import './src/filter-polyfill.js';
 import './src/reduce-polyfill.js';
 import './src/slice-polyfill.js';
 import './src/flat-polyfill.js';
-import './src/object.create-pollyfill.js';
+
+// function polyfills
 import './src/call-polyfill.js'
 import './src/apply-polyfill.js'
 import './src/bind-polyfill.js'
 
+// object polyfills
+import './src/object.create-pollyfill.js';
+
+console.log("Polyfills for myCall, myBind, myApply have been added to Function prototype");
+console.log("Polyfills for myMap, myFilter, myReduce, mySlice ,myFlat have been added to Array prototype");
+console.log("Polyfills for myCreate has  been added to Object prototype");
+
+console.log("myDeepCloneObject,myCurrySum, myDeepCompareObjectsmyAbstractEquality, myDebounce, myThrottleBasicUsingDate, myThrottleBasicUsingTimer ,myThrottleAdvance, myNew, mySetTimeout myClearTimeout fns  have been named export.");
+
+ 
 
 
-console.log('Polyfills for map, filter, reduce, slice,flat object.create, call, apply ,bind, debounce , throttle , advanced throttle fn  have been loaded.');
-
-
-// console.log([2,1,2].myReduce((acc, val) => acc + val, 0)); // 5
-
-// 
-
-// let obj = {
-//     name : "chetan singh ",
-//     age : 22
-// }
-
-// function fn (greet, ...args) {
-//     console.log(args);
-//     console.log(this);
-//     console.log(`${greet} from ${this?.name} and my age is ${this?.age}`  );
-// }
-
-// let newFn = fn.myBind(obj, "hii");
-// newFn("ese hii ", 23);
 
