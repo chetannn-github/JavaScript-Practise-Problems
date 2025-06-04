@@ -1,4 +1,4 @@
-export const abstractEquality = function (a, b) {
+export const myAbstractEquality = function (a, b) {
     if(a === b) return true;
 
     if((a === null  && b === undefined) || (b === null  && a === undefined)) return true;

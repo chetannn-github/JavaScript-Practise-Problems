@@ -1,4 +1,4 @@
-export const throttleAdvance = function (callback, delay, options = {}) {
+export const myThrottleAdvance = function (callback, delay, options = {}) {
     const {leading = true, trailing = true} = options;
     let lastCall = 0;
     let timeoutId = null;

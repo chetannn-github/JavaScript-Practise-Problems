@@ -1,7 +1,7 @@
 // debouncing delays execution of fn until after certain time has passed since it was called (latest)
 
 
-export const debounce = function (callBackFn, delay) {
+export const myDebounce = function (callBackFn, delay) {
     try {
         let timer = '';
 

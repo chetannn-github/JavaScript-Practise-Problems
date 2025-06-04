@@ -1,7 +1,7 @@
 // throttling ensures atmost once the execution of fn in every delay time
 
 
-export const  throttleBasicUsingDate = function (callback, delay) {
+export const  myThrottleBasicUsingDate = function (callback, delay) {
     let lastCall = 0;
 
     return function (...args) {
@@ -17,7 +17,7 @@ export const  throttleBasicUsingDate = function (callback, delay) {
 }
 
 
-export const throttleBasicUsingTimer = function (callback, delay) {
+export const myThrottleBasicUsingTimer = function (callback, delay) {
     let isWaiting = false;
 
     return function (...args) {

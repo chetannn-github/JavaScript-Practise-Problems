@@ -1,4 +1,4 @@
-export let deepCompareObjects = (obj1, obj2) => {
+export let myDeepCompareObjects = (obj1, obj2) => {
     // kya dono primitive hain like string, number, boolean
     // console.log(obj1,obj2)
     if (obj1 === obj2) return true;

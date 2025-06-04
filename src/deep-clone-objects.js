@@ -28,7 +28,7 @@
 // manually function likhnaa 
 
 
-export function deepClone(obj) {
+export function myDeepCloneObject(obj) {
     if (obj === null || typeof obj !== 'object') return obj;
   
     if (Array.isArray(obj)) {
