@@ -8,6 +8,7 @@ export {mySetTimeout,myClearTimeout} from "./src/setTimeout-polyfill.js"
 
 export {myThrottleBasicUsingDate, myThrottleBasicUsingTimer} from "./src/throttle-basic.js"
 export {myThrottleAdvance} from "./src/throttle-advance.js"
+export {myClearInterval,mySetInterval } from "./src/setInterval-polyfill.js"
 
 // array polyfills
 import './src/map-polyfill.js';
@@ -23,14 +24,12 @@ import './src/bind-polyfill.js'
 
 // object polyfills
 import './src/object.create-pollyfill.js';
-import { mySetTimeout } from './src/setTimeout-polyfill.js';
+
 
 console.log("Polyfills for myCall, myBind, myApply have been added to Function prototype");
 console.log("Polyfills for myMap, myFilter, myReduce, mySlice ,myFlat have been added to Array prototype");
 console.log("Polyfills for myCreate has  been added to Object prototype");
 
-console.log("myDeepCloneObject,myCurrySum, myDeepCompareObjectsmyAbstractEquality, myDebounce, myThrottleBasicUsingDate, myThrottleBasicUsingTimer ,myThrottleAdvance, myNew, mySetTimeout myClearTimeout fns  have been named export.");
-
-
+console.log("myDeepCloneObject,myCurrySum, myDeepCompareObjectsmyAbstractEquality, myDebounce, myThrottleBasicUsingDate, myThrottleBasicUsingTimer ,myThrottleAdvance, myNew, mySetTimeout myClearTimeout, mySetInterval, myClearInterval fns  have been named export.");
 
 
