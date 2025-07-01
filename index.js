@@ -10,6 +10,7 @@ export {myThrottleBasicUsingDate, myThrottleBasicUsingTimer} from "./src/throttl
 export {myThrottleAdvance} from "./src/throttle-advance.js"
 export {myClearInterval,mySetInterval } from "./src/setInterval-polyfill.js"
 
+import { myJSONStringify } from './src/json-stringify.js';
 // array polyfills
 import './src/map-polyfill.js';
 import './src/filter-polyfill.js';
@@ -24,7 +25,8 @@ import './src/bind-polyfill.js'
 
 // object polyfills
 import './src/object.create-pollyfill.js';
-import './src/json-stringify.js';
+
+
 
 
 console.log("Polyfills for myCall, myBind, myApply have been added to Function prototype");

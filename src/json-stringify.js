@@ -1,4 +1,4 @@
-export default function myJSONtringify(value) {
+export function myJSONStringify(value) {
   // Handle null
   if (value === null) return 'null';
 
