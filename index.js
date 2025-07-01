@@ -11,6 +11,7 @@ export {myThrottleAdvance} from "./src/throttle-advance.js"
 export {myClearInterval,mySetInterval } from "./src/setInterval-polyfill.js"
 
 export  { myJSONStringify } from './src/json-stringify.js';
+export { myMemoize } from './src/memoize.js';
 // array polyfills
 import './src/map-polyfill.js';
 import './src/filter-polyfill.js';
@@ -29,10 +30,11 @@ import './src/object.create-pollyfill.js';
 
 
 
+
 console.log("Polyfills for myCall, myBind, myApply have been added to Function prototype");
 console.log("Polyfills for myMap, myFilter, myReduce, mySlice ,myFlat have been added to Array prototype");
 console.log("Polyfills for myCreate has  been added to Object prototype");
 
-console.log("myJSONStringify,myDeepCloneObject,myCurrySum, myDeepCompareObjectsmyAbstractEquality, myDebounce, myThrottleBasicUsingDate, myThrottleBasicUsingTimer ,myThrottleAdvance, myNew, mySetTimeout myClearTimeout, mySetInterval, myClearInterval fns  have been named export.");
+console.log("myMemoize, myJSONStringify,myDeepCloneObject,myCurrySum, myDeepCompareObjectsmyAbstractEquality, myDebounce, myThrottleBasicUsingDate, myThrottleBasicUsingTimer ,myThrottleAdvance, myNew, mySetTimeout myClearTimeout, mySetInterval, myClearInterval fns  have been named export.");
 
 
